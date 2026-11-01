@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+pydantic
+sqlalchemy
+cadquery==2.8.0
+trimesh
+httpx
+pytest
+ruff
+mypy
