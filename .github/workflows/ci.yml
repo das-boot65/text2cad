@@ -1,0 +1,28 @@
+name: Windows QA
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - name: Publication privacy check
+        shell: powershell
+        run: python scripts/check_publication.py --history
+      - name: Install
+        shell: powershell
+        run: ./scripts/setup.ps1 -Python (Get-Command python).Source
+      - name: Checks
+        shell: powershell
+        run: ./scripts/test.ps1

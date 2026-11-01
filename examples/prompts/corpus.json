@@ -1,0 +1,1906 @@
+{
+  "version": 1,
+  "methodology": "80 authored constrained-grammar cases; 62 development and 18 held out by fixed labels. Synthetic internal evaluation, not an external benchmark.",
+  "cases": [
+    {
+      "id": "plate-01",
+      "split": "development",
+      "text": "Mounting plate length 60 mm, width 30 mm, thickness 5 mm.",
+      "expected_status": "ready",
+      "family": "plate",
+      "expected_slots": {
+        "length_mm": 60,
+        "width_mm": 30,
+        "thickness_mm": 5
+      },
+      "expected_normalized": {
+        "part_family": "plate",
+        "units": "mm",
+        "parameters": {
+          "corner_radius_mm": 0,
+          "length_mm": 60,
+          "width_mm": 30,
+          "thickness_mm": 5
+        },
+        "hole_features": []
+      }
+    },
+    {
+      "id": "bracket-01",
+      "split": "development",
+      "text": "L-bracket base length 60 mm, width 30 mm, wall height 40 mm, thickness 5 mm.",
+      "expected_status": "ready",
+      "family": "bracket",
+      "expected_slots": {
+        "length_mm": 60,
+        "width_mm": 30,
+        "height_mm": 40,
+        "thickness_mm": 5
+      },
+      "expected_normalized": {
+        "part_family": "bracket",
+        "units": "mm",
+        "parameters": {
+          "corner_radius_mm": 0,
+          "length_mm": 60,
+          "width_mm": 30,
+          "height_mm": 40,
+          "thickness_mm": 5
+        },
+        "hole_features": []
+      }
+    },
+    {
+      "id": "enclosure-01",
+      "split": "development",
+      "text": "Electronics enclosure length 90 mm, width 60 mm, height 35 mm, wall thickness 3 mm, lid clearance 0.3 mm.",
+      "expected_status": "ready",
+      "family": "enclosure",
+      "expected_slots": {
+        "length_mm": 90,
+        "width_mm": 60,
+        "height_mm": 35,
+        "wall_mm": 3,
+        "lid_clearance_mm": 0.3
+      },
+      "expected_normalized": {
+        "part_family": "enclosure",
+        "units": "mm",
+        "parameters": {
+          "screw_hole_diameter_mm": 0,
+          "length_mm": 90,
+          "width_mm": 60,
+          "height_mm": 35,
+          "wall_mm": 3,
+          "lid_clearance_mm": 0.3
+        },
+        "hole_features": []
+      }
+    },
+    {
+      "id": "finger-01",
+      "split": "development",
+      "text": "Gripper finger length 60 mm, width 20 mm, thickness 6 mm.",
+      "expected_status": "ready",
+      "family": "finger",
+      "expected_slots": {
+        "length_mm": 60,
+        "width_mm": 20,
+        "thickness_mm": 6
+      },
+      "expected_normalized": {
+        "part_family": "finger",
+        "units": "mm",
+        "parameters": {
+          "corner_radius_mm": 0,
+          "tip": "flat",
+          "taper_length_mm": 0,
+          "pad_depth_mm": 0,
+          "length_mm": 60,
+          "width_mm": 20,
+          "thickness_mm": 6
+        },
+        "hole_features": []
+      }
+    },
+    {
+      "id": "plate-02",
+      "split": "development",
+      "text": "Mounting plate length 62 mm, width 30 mm, thickness 5 mm.",
+      "expected_status": "ready",
+      "family": "plate",
+      "expected_slots": {
+        "length_mm": 62,
+        "width_mm": 30,
+        "thickness_mm": 5
+      },
+      "expected_normalized": {
+        "part_family": "plate",
+        "units": "mm",
+        "parameters": {
+          "corner_radius_mm": 0,
+          "length_mm": 62,
+          "width_mm": 30,
+          "thickness_mm": 5
+        },
+        "hole_features": []
+      }
+    },
+    {
+      "id": "bracket-02",
+      "split": "development",
+      "text": "L-bracket base length 62 mm, width 30 mm, wall height 40 mm, thickness 5 mm.",
+      "expected_status": "ready",
+      "family": "bracket",
+      "expected_slots": {
+        "length_mm": 62,
+        "width_mm": 30,
+        "height_mm": 40,
+        "thickness_mm": 5
+      },
+      "expected_normalized": {
+        "part_family": "bracket",
+        "units": "mm",
+        "parameters": {
+          "corner_radius_mm": 0,
+          "length_mm": 62,
+          "width_mm": 30,
+          "height_mm": 40,
+          "thickness_mm": 5
+        },
+        "hole_features": []
+      }
+    },
+    {
+      "id": "enclosure-02",
+      "split": "development",
+      "text": "Electronics enclosure length 92 mm, width 60 mm, height 35 mm, wall thickness 3 mm, lid clearance 0.3 mm.",
+      "expected_status": "ready",
+      "family": "enclosure",
+      "expected_slots": {
+        "length_mm": 92,
+        "width_mm": 60,
+        "height_mm": 35,
+        "wall_mm": 3,
+        "lid_clearance_mm": 0.3
+      },
+      "expected_normalized": {
+        "part_family": "enclosure",
+        "units": "mm",
+        "parameters": {
+          "screw_hole_diameter_mm": 0,
+          "length_mm": 92,
+          "width_mm": 60,
+          "height_mm": 35,
+          "wall_mm": 3,
+          "lid_clearance_mm": 0.3
+        },
+        "hole_features": []
+      }
+    },
+    {
+      "id": "finger-02",
+      "split": "development",
+      "text": "Gripper finger length 62 mm, width 20 mm, thickness 6 mm.",
+      "expected_status": "ready",
+      "family": "finger",
+      "expected_slots": {
+        "length_mm": 62,
+        "width_mm": 20,
+        "thickness_mm": 6
+      },
+      "expected_normalized": {
+        "part_family": "finger",
+        "units": "mm",
+        "parameters": {
+          "corner_radius_mm": 0,
+          "tip": "flat",
+          "taper_length_mm": 0,
+          "pad_depth_mm": 0,
+          "length_mm": 62,
+          "width_mm": 20,
+          "thickness_mm": 6
+        },
+        "hole_features": []
+      }
+    },
+    {
+      "id": "plate-03",
+      "split": "development",
+      "text": "Mounting plate length 64 mm, width 30 mm, thickness 5 mm.",
+      "expected_status": "ready",
+      "family": "plate",
+      "expected_slots": {
+        "length_mm": 64,
+        "width_mm": 30,
+        "thickness_mm": 5
+      },
+      "expected_normalized": {
+        "part_family": "plate",
+        "units": "mm",
+        "parameters": {
+          "corner_radius_mm": 0,
+          "length_mm": 64,
+          "width_mm": 30,
+          "thickness_mm": 5
+        },
+        "hole_features": []
+      }
+    },
+    {
+      "id": "bracket-03",
+      "split": "development",
+      "text": "L-bracket base length 64 mm, width 30 mm, wall height 40 mm, thickness 5 mm.",
+      "expected_status": "ready",
+      "family": "bracket",
+      "expected_slots": {
+        "length_mm": 64,
+        "width_mm": 30,
+        "height_mm": 40,
+        "thickness_mm": 5
+      },
+      "expected_normalized": {
+        "part_family": "bracket",
+        "units": "mm",
+        "parameters": {
+          "corner_radius_mm": 0,
+          "length_mm": 64,
+          "width_mm": 30,
+          "height_mm": 40,
+          "thickness_mm": 5
+        },
+        "hole_features": []
+      }
+    },
+    {
+      "id": "enclosure-03",
+      "split": "development",
+      "text": "Electronics enclosure length 94 mm, width 60 mm, height 35 mm, wall thickness 3 mm, lid clearance 0.3 mm.",
+      "expected_status": "ready",
+      "family": "enclosure",
+      "expected_slots": {
+        "length_mm": 94,
+        "width_mm": 60,
+        "height_mm": 35,
+        "wall_mm": 3,
+        "lid_clearance_mm": 0.3
+      },
+      "expected_normalized": {
+        "part_family": "enclosure",
+        "units": "mm",
+        "parameters": {
+          "screw_hole_diameter_mm": 0,
+          "length_mm": 94,
+          "width_mm": 60,
+          "height_mm": 35,
+          "wall_mm": 3,
+          "lid_clearance_mm": 0.3
+        },
+        "hole_features": []
+      }
+    },
+    {
+      "id": "finger-03",
+      "split": "development",
+      "text": "Gripper finger length 64 mm, width 20 mm, thickness 6 mm.",
+      "expected_status": "ready",
+      "family": "finger",
+      "expected_slots": {
+        "length_mm": 64,
+        "width_mm": 20,
+        "thickness_mm": 6
+      },
+      "expected_normalized": {
+        "part_family": "finger",
+        "units": "mm",
+        "parameters": {
+          "corner_radius_mm": 0,
+          "tip": "flat",
+          "taper_length_mm": 0,
+          "pad_depth_mm": 0,
+          "length_mm": 64,
+          "width_mm": 20,
+          "thickness_mm": 6
+        },
+        "hole_features": []
+      }
+    },
+    {
+      "id": "plate-04",
+      "split": "held_out",
+      "text": "Mounting plate length 66 mm, width 30 mm, thickness 5 mm.",
+      "expected_status": "ready",
+      "family": "plate",
+      "expected_slots": {
+        "length_mm": 66,
+        "width_mm": 30,
+        "thickness_mm": 5
+      },
+      "expected_normalized": {
+        "part_family": "plate",
+        "units": "mm",
+        "parameters": {
+          "corner_radius_mm": 0,
+          "length_mm": 66,
+          "width_mm": 30,
+          "thickness_mm": 5
+        },
+        "hole_features": []
+      }
+    },
+    {
+      "id": "bracket-04",
+      "split": "held_out",
+      "text": "L-bracket base length 66 mm, width 30 mm, wall height 40 mm, thickness 5 mm.",
+      "expected_status": "ready",
+      "family": "bracket",
+      "expected_slots": {
+        "length_mm": 66,
+        "width_mm": 30,
+        "height_mm": 40,
+        "thickness_mm": 5
+      },
+      "expected_normalized": {
+        "part_family": "bracket",
+        "units": "mm",
+        "parameters": {
+          "corner_radius_mm": 0,
+          "length_mm": 66,
+          "width_mm": 30,
+          "height_mm": 40,
+          "thickness_mm": 5
+        },
+        "hole_features": []
+      }
+    },
+    {
+      "id": "enclosure-04",
+      "split": "held_out",
+      "text": "Electronics enclosure length 96 mm, width 60 mm, height 35 mm, wall thickness 3 mm, lid clearance 0.3 mm.",
+      "expected_status": "ready",
+      "family": "enclosure",
+      "expected_slots": {
+        "length_mm": 96,
+        "width_mm": 60,
+        "height_mm": 35,
+        "wall_mm": 3,
+        "lid_clearance_mm": 0.3
+      },
+      "expected_normalized": {
+        "part_family": "enclosure",
+        "units": "mm",
+        "parameters": {
+          "screw_hole_diameter_mm": 0,
+          "length_mm": 96,
+          "width_mm": 60,
+          "height_mm": 35,
+          "wall_mm": 3,
+          "lid_clearance_mm": 0.3
+        },
+        "hole_features": []
+      }
+    },
+    {
+      "id": "finger-04",
+      "split": "held_out",
+      "text": "Gripper finger length 66 mm, width 20 mm, thickness 6 mm.",
+      "expected_status": "ready",
+      "family": "finger",
+      "expected_slots": {
+        "length_mm": 66,
+        "width_mm": 20,
+        "thickness_mm": 6
+      },
+      "expected_normalized": {
+        "part_family": "finger",
+        "units": "mm",
+        "parameters": {
+          "corner_radius_mm": 0,
+          "tip": "flat",
+          "taper_length_mm": 0,
+          "pad_depth_mm": 0,
+          "length_mm": 66,
+          "width_mm": 20,
+          "thickness_mm": 6
+        },
+        "hole_features": []
+      }
+    },
+    {
+      "id": "plate-05",
+      "split": "development",
+      "text": "Mounting plate length 68 mm, width 30 mm, thickness 5 mm.",
+      "expected_status": "ready",
+      "family": "plate",
+      "expected_slots": {
+        "length_mm": 68,
+        "width_mm": 30,
+        "thickness_mm": 5
+      },
+      "expected_normalized": {
+        "part_family": "plate",
+        "units": "mm",
+        "parameters": {
+          "corner_radius_mm": 0,
+          "length_mm": 68,
+          "width_mm": 30,
+          "thickness_mm": 5
+        },
+        "hole_features": []
+      }
+    },
+    {
+      "id": "bracket-05",
+      "split": "development",
+      "text": "L-bracket base length 68 mm, width 30 mm, wall height 40 mm, thickness 5 mm.",
+      "expected_status": "ready",
+      "family": "bracket",
+      "expected_slots": {
+        "length_mm": 68,
+        "width_mm": 30,
+        "height_mm": 40,
+        "thickness_mm": 5
+      },
+      "expected_normalized": {
+        "part_family": "bracket",
+        "units": "mm",
+        "parameters": {
+          "corner_radius_mm": 0,
+          "length_mm": 68,
+          "width_mm": 30,
+          "height_mm": 40,
+          "thickness_mm": 5
+        },
+        "hole_features": []
+      }
+    },
+    {
+      "id": "enclosure-05",
+      "split": "development",
+      "text": "Electronics enclosure length 98 mm, width 60 mm, height 35 mm, wall thickness 3 mm, lid clearance 0.3 mm.",
+      "expected_status": "ready",
+      "family": "enclosure",
+      "expected_slots": {
+        "length_mm": 98,
+        "width_mm": 60,
+        "height_mm": 35,
+        "wall_mm": 3,
+        "lid_clearance_mm": 0.3
+      },
+      "expected_normalized": {
+        "part_family": "enclosure",
+        "units": "mm",
+        "parameters": {
+          "screw_hole_diameter_mm": 0,
+          "length_mm": 98,
+          "width_mm": 60,
+          "height_mm": 35,
+          "wall_mm": 3,
+          "lid_clearance_mm": 0.3
+        },
+        "hole_features": []
+      }
+    },
+    {
+      "id": "finger-05",
+      "split": "development",
+      "text": "Gripper finger length 68 mm, width 20 mm, thickness 6 mm.",
+      "expected_status": "ready",
+      "family": "finger",
+      "expected_slots": {
+        "length_mm": 68,
+        "width_mm": 20,
+        "thickness_mm": 6
+      },
+      "expected_normalized": {
+        "part_family": "finger",
+        "units": "mm",
+        "parameters": {
+          "corner_radius_mm": 0,
+          "tip": "flat",
+          "taper_length_mm": 0,
+          "pad_depth_mm": 0,
+          "length_mm": 68,
+          "width_mm": 20,
+          "thickness_mm": 6
+        },
+        "hole_features": []
+      }
+    },
+    {
+      "id": "plate-06",
+      "split": "development",
+      "text": "Mounting plate length 70 mm, width 30 mm, thickness 5 mm.",
+      "expected_status": "ready",
+      "family": "plate",
+      "expected_slots": {
+        "length_mm": 70,
+        "width_mm": 30,
+        "thickness_mm": 5
+      },
+      "expected_normalized": {
+        "part_family": "plate",
+        "units": "mm",
+        "parameters": {
+          "corner_radius_mm": 0,
+          "length_mm": 70,
+          "width_mm": 30,
+          "thickness_mm": 5
+        },
+        "hole_features": []
+      }
+    },
+    {
+      "id": "bracket-06",
+      "split": "development",
+      "text": "L-bracket base length 70 mm, width 30 mm, wall height 40 mm, thickness 5 mm.",
+      "expected_status": "ready",
+      "family": "bracket",
+      "expected_slots": {
+        "length_mm": 70,
+        "width_mm": 30,
+        "height_mm": 40,
+        "thickness_mm": 5
+      },
+      "expected_normalized": {
+        "part_family": "bracket",
+        "units": "mm",
+        "parameters": {
+          "corner_radius_mm": 0,
+          "length_mm": 70,
+          "width_mm": 30,
+          "height_mm": 40,
+          "thickness_mm": 5
+        },
+        "hole_features": []
+      }
+    },
+    {
+      "id": "enclosure-06",
+      "split": "development",
+      "text": "Electronics enclosure length 100 mm, width 60 mm, height 35 mm, wall thickness 3 mm, lid clearance 0.3 mm.",
+      "expected_status": "ready",
+      "family": "enclosure",
+      "expected_slots": {
+        "length_mm": 100,
+        "width_mm": 60,
+        "height_mm": 35,
+        "wall_mm": 3,
+        "lid_clearance_mm": 0.3
+      },
+      "expected_normalized": {
+        "part_family": "enclosure",
+        "units": "mm",
+        "parameters": {
+          "screw_hole_diameter_mm": 0,
+          "length_mm": 100,
+          "width_mm": 60,
+          "height_mm": 35,
+          "wall_mm": 3,
+          "lid_clearance_mm": 0.3
+        },
+        "hole_features": []
+      }
+    },
+    {
+      "id": "finger-06",
+      "split": "development",
+      "text": "Gripper finger length 70 mm, width 20 mm, thickness 6 mm.",
+      "expected_status": "ready",
+      "family": "finger",
+      "expected_slots": {
+        "length_mm": 70,
+        "width_mm": 20,
+        "thickness_mm": 6
+      },
+      "expected_normalized": {
+        "part_family": "finger",
+        "units": "mm",
+        "parameters": {
+          "corner_radius_mm": 0,
+          "tip": "flat",
+          "taper_length_mm": 0,
+          "pad_depth_mm": 0,
+          "length_mm": 70,
+          "width_mm": 20,
+          "thickness_mm": 6
+        },
+        "hole_features": []
+      }
+    },
+    {
+      "id": "plate-07",
+      "split": "development",
+      "text": "Mounting plate length 72 mm, width 30 mm, thickness 5 mm.",
+      "expected_status": "ready",
+      "family": "plate",
+      "expected_slots": {
+        "length_mm": 72,
+        "width_mm": 30,
+        "thickness_mm": 5
+      },
+      "expected_normalized": {
+        "part_family": "plate",
+        "units": "mm",
+        "parameters": {
+          "corner_radius_mm": 0,
+          "length_mm": 72,
+          "width_mm": 30,
+          "thickness_mm": 5
+        },
+        "hole_features": []
+      }
+    },
+    {
+      "id": "bracket-07",
+      "split": "development",
+      "text": "L-bracket base length 72 mm, width 30 mm, wall height 40 mm, thickness 5 mm.",
+      "expected_status": "ready",
+      "family": "bracket",
+      "expected_slots": {
+        "length_mm": 72,
+        "width_mm": 30,
+        "height_mm": 40,
+        "thickness_mm": 5
+      },
+      "expected_normalized": {
+        "part_family": "bracket",
+        "units": "mm",
+        "parameters": {
+          "corner_radius_mm": 0,
+          "length_mm": 72,
+          "width_mm": 30,
+          "height_mm": 40,
+          "thickness_mm": 5
+        },
+        "hole_features": []
+      }
+    },
+    {
+      "id": "enclosure-07",
+      "split": "development",
+      "text": "Electronics enclosure length 102 mm, width 60 mm, height 35 mm, wall thickness 3 mm, lid clearance 0.3 mm.",
+      "expected_status": "ready",
+      "family": "enclosure",
+      "expected_slots": {
+        "length_mm": 102,
+        "width_mm": 60,
+        "height_mm": 35,
+        "wall_mm": 3,
+        "lid_clearance_mm": 0.3
+      },
+      "expected_normalized": {
+        "part_family": "enclosure",
+        "units": "mm",
+        "parameters": {
+          "screw_hole_diameter_mm": 0,
+          "length_mm": 102,
+          "width_mm": 60,
+          "height_mm": 35,
+          "wall_mm": 3,
+          "lid_clearance_mm": 0.3
+        },
+        "hole_features": []
+      }
+    },
+    {
+      "id": "finger-07",
+      "split": "development",
+      "text": "Gripper finger length 72 mm, width 20 mm, thickness 6 mm.",
+      "expected_status": "ready",
+      "family": "finger",
+      "expected_slots": {
+        "length_mm": 72,
+        "width_mm": 20,
+        "thickness_mm": 6
+      },
+      "expected_normalized": {
+        "part_family": "finger",
+        "units": "mm",
+        "parameters": {
+          "corner_radius_mm": 0,
+          "tip": "flat",
+          "taper_length_mm": 0,
+          "pad_depth_mm": 0,
+          "length_mm": 72,
+          "width_mm": 20,
+          "thickness_mm": 6
+        },
+        "hole_features": []
+      }
+    },
+    {
+      "id": "plate-08",
+      "split": "held_out",
+      "text": "Mounting plate length 74 mm, width 30 mm, thickness 5 mm.",
+      "expected_status": "ready",
+      "family": "plate",
+      "expected_slots": {
+        "length_mm": 74,
+        "width_mm": 30,
+        "thickness_mm": 5
+      },
+      "expected_normalized": {
+        "part_family": "plate",
+        "units": "mm",
+        "parameters": {
+          "corner_radius_mm": 0,
+          "length_mm": 74,
+          "width_mm": 30,
+          "thickness_mm": 5
+        },
+        "hole_features": []
+      }
+    },
+    {
+      "id": "bracket-08",
+      "split": "held_out",
+      "text": "L-bracket base length 74 mm, width 30 mm, wall height 40 mm, thickness 5 mm.",
+      "expected_status": "ready",
+      "family": "bracket",
+      "expected_slots": {
+        "length_mm": 74,
+        "width_mm": 30,
+        "height_mm": 40,
+        "thickness_mm": 5
+      },
+      "expected_normalized": {
+        "part_family": "bracket",
+        "units": "mm",
+        "parameters": {
+          "corner_radius_mm": 0,
+          "length_mm": 74,
+          "width_mm": 30,
+          "height_mm": 40,
+          "thickness_mm": 5
+        },
+        "hole_features": []
+      }
+    },
+    {
+      "id": "enclosure-08",
+      "split": "held_out",
+      "text": "Electronics enclosure length 104 mm, width 60 mm, height 35 mm, wall thickness 3 mm, lid clearance 0.3 mm.",
+      "expected_status": "ready",
+      "family": "enclosure",
+      "expected_slots": {
+        "length_mm": 104,
+        "width_mm": 60,
+        "height_mm": 35,
+        "wall_mm": 3,
+        "lid_clearance_mm": 0.3
+      },
+      "expected_normalized": {
+        "part_family": "enclosure",
+        "units": "mm",
+        "parameters": {
+          "screw_hole_diameter_mm": 0,
+          "length_mm": 104,
+          "width_mm": 60,
+          "height_mm": 35,
+          "wall_mm": 3,
+          "lid_clearance_mm": 0.3
+        },
+        "hole_features": []
+      }
+    },
+    {
+      "id": "finger-08",
+      "split": "held_out",
+      "text": "Gripper finger length 74 mm, width 20 mm, thickness 6 mm.",
+      "expected_status": "ready",
+      "family": "finger",
+      "expected_slots": {
+        "length_mm": 74,
+        "width_mm": 20,
+        "thickness_mm": 6
+      },
+      "expected_normalized": {
+        "part_family": "finger",
+        "units": "mm",
+        "parameters": {
+          "corner_radius_mm": 0,
+          "tip": "flat",
+          "taper_length_mm": 0,
+          "pad_depth_mm": 0,
+          "length_mm": 74,
+          "width_mm": 20,
+          "thickness_mm": 6
+        },
+        "hole_features": []
+      }
+    },
+    {
+      "id": "plate-09",
+      "split": "development",
+      "text": "Plate 6 x 3 cm, 0.5 cm thick.",
+      "expected_status": "ready",
+      "family": "plate",
+      "expected_slots": {
+        "length_mm": 60,
+        "width_mm": 30,
+        "thickness_mm": 5
+      },
+      "expected_normalized": {
+        "part_family": "plate",
+        "units": "mm",
+        "parameters": {
+          "corner_radius_mm": 0,
+          "length_mm": 60,
+          "width_mm": 30,
+          "thickness_mm": 5
+        },
+        "hole_features": []
+      }
+    },
+    {
+      "id": "bracket-09",
+      "split": "development",
+      "text": "L-bracket base length 76 mm, width 30 mm, wall height 40 mm, thickness 5 mm.",
+      "expected_status": "ready",
+      "family": "bracket",
+      "expected_slots": {
+        "length_mm": 76,
+        "width_mm": 30,
+        "height_mm": 40,
+        "thickness_mm": 5
+      },
+      "expected_normalized": {
+        "part_family": "bracket",
+        "units": "mm",
+        "parameters": {
+          "corner_radius_mm": 0,
+          "length_mm": 76,
+          "width_mm": 30,
+          "height_mm": 40,
+          "thickness_mm": 5
+        },
+        "hole_features": []
+      }
+    },
+    {
+      "id": "enclosure-09",
+      "split": "development",
+      "text": "Electronics enclosure length 106 mm, width 60 mm, height 35 mm, wall thickness 3 mm, lid clearance 0.3 mm.",
+      "expected_status": "ready",
+      "family": "enclosure",
+      "expected_slots": {
+        "length_mm": 106,
+        "width_mm": 60,
+        "height_mm": 35,
+        "wall_mm": 3,
+        "lid_clearance_mm": 0.3
+      },
+      "expected_normalized": {
+        "part_family": "enclosure",
+        "units": "mm",
+        "parameters": {
+          "screw_hole_diameter_mm": 0,
+          "length_mm": 106,
+          "width_mm": 60,
+          "height_mm": 35,
+          "wall_mm": 3,
+          "lid_clearance_mm": 0.3
+        },
+        "hole_features": []
+      }
+    },
+    {
+      "id": "finger-09",
+      "split": "development",
+      "text": "Gripper finger length 3 inches, width 1 inch, thickness 1/4 inch.",
+      "expected_status": "ready",
+      "family": "finger",
+      "expected_slots": {
+        "length_mm": 76.2,
+        "width_mm": 25.4,
+        "thickness_mm": 6.35
+      },
+      "expected_normalized": {
+        "part_family": "finger",
+        "units": "mm",
+        "parameters": {
+          "corner_radius_mm": 0,
+          "tip": "flat",
+          "taper_length_mm": 0,
+          "pad_depth_mm": 0,
+          "length_mm": 76.2,
+          "width_mm": 25.4,
+          "thickness_mm": 6.35
+        },
+        "hole_features": []
+      }
+    },
+    {
+      "id": "plate-10",
+      "split": "development",
+      "text": "Make a 60 x 25 mm base plate, 5 mm thick, with four 4.5 mm clearance holes spaced 40 x 15 mm.",
+      "expected_status": "ready",
+      "family": "plate",
+      "expected_slots": {
+        "length_mm": 60,
+        "width_mm": 25,
+        "thickness_mm": 5
+      },
+      "expected_normalized": {
+        "part_family": "plate",
+        "units": "mm",
+        "parameters": {
+          "corner_radius_mm": 0,
+          "length_mm": 60,
+          "width_mm": 25,
+          "thickness_mm": 5
+        },
+        "hole_features": [
+          {
+            "face": "top",
+            "diameter_mm": 4.5,
+            "positions_mm": [
+              [
+                10,
+                5
+              ],
+              [
+                50,
+                5
+              ],
+              [
+                10,
+                20
+              ],
+              [
+                50,
+                20
+              ]
+            ],
+            "minimum_edge_clearance_mm": 1,
+            "pattern": "explicit"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bracket-10",
+      "split": "development",
+      "text": "Bracket length 0.06 m, width 3 cm, height 40 mm, thickness 0.5 cm.",
+      "expected_status": "ready",
+      "family": "bracket",
+      "expected_slots": {
+        "length_mm": 60,
+        "width_mm": 30,
+        "height_mm": 40,
+        "thickness_mm": 5
+      },
+      "expected_normalized": {
+        "part_family": "bracket",
+        "units": "mm",
+        "parameters": {
+          "corner_radius_mm": 0,
+          "length_mm": 60,
+          "width_mm": 30,
+          "height_mm": 40,
+          "thickness_mm": 5
+        },
+        "hole_features": []
+      }
+    },
+    {
+      "id": "enclosure-10",
+      "split": "development",
+      "text": "Enclosure 100 x 60 x 40 mm, wall thickness 3 mm, lid clearance 0.4 mm.",
+      "expected_status": "ready",
+      "family": "enclosure",
+      "expected_slots": {
+        "length_mm": 100,
+        "width_mm": 60,
+        "height_mm": 40,
+        "wall_mm": 3,
+        "lid_clearance_mm": 0.4
+      },
+      "expected_normalized": {
+        "part_family": "enclosure",
+        "units": "mm",
+        "parameters": {
+          "screw_hole_diameter_mm": 0,
+          "length_mm": 100,
+          "width_mm": 60,
+          "height_mm": 40,
+          "wall_mm": 3,
+          "lid_clearance_mm": 0.4
+        },
+        "hole_features": []
+      }
+    },
+    {
+      "id": "finger-10",
+      "split": "development",
+      "text": "Robotic gripper finger length 80 mm width 20 mm thickness 6 mm tapered tip taper length 20 mm.",
+      "expected_status": "ready",
+      "family": "finger",
+      "expected_slots": {
+        "length_mm": 80,
+        "width_mm": 20,
+        "thickness_mm": 6,
+        "taper_length_mm": 20
+      },
+      "expected_normalized": {
+        "part_family": "finger",
+        "units": "mm",
+        "parameters": {
+          "corner_radius_mm": 0,
+          "tip": "tapered",
+          "taper_length_mm": 20,
+          "pad_depth_mm": 0,
+          "length_mm": 80,
+          "width_mm": 20,
+          "thickness_mm": 6
+        },
+        "hole_features": []
+      }
+    },
+    {
+      "id": "missing-01",
+      "split": "development",
+      "text": "Plate length 60 mm width 25 mm.",
+      "expected_status": "needs_clarification",
+      "expected_slots": {}
+    },
+    {
+      "id": "missing-02",
+      "split": "development",
+      "text": "Bracket length 60 mm width 25 mm thickness 5 mm.",
+      "expected_status": "needs_clarification",
+      "expected_slots": {}
+    },
+    {
+      "id": "missing-03",
+      "split": "held_out",
+      "text": "Enclosure length 80 mm width 50 mm height 30 mm wall thickness 3 mm.",
+      "expected_status": "needs_clarification",
+      "expected_slots": {}
+    },
+    {
+      "id": "missing-04",
+      "split": "development",
+      "text": "Gripper finger length 80 mm thickness 6 mm.",
+      "expected_status": "needs_clarification",
+      "expected_slots": {}
+    },
+    {
+      "id": "missing-05",
+      "split": "development",
+      "text": "Plate 60 x 25, thickness 5.",
+      "expected_status": "needs_clarification",
+      "expected_slots": {}
+    },
+    {
+      "id": "missing-06",
+      "split": "development",
+      "text": "Enclosure length 80 mm width 50 mm height 30 mm lid clearance .3 mm.",
+      "expected_status": "needs_clarification",
+      "expected_slots": {}
+    },
+    {
+      "id": "missing-07",
+      "split": "held_out",
+      "text": "Gripper finger length 80 mm width 20 mm thickness 6 mm tapered tip.",
+      "expected_status": "needs_clarification",
+      "expected_slots": {}
+    },
+    {
+      "id": "missing-08",
+      "split": "development",
+      "text": "Plate length 60 mm width 25 mm thickness 5 mm with four holes.",
+      "expected_status": "needs_clarification",
+      "expected_slots": {}
+    },
+    {
+      "id": "invalid-01",
+      "split": "development",
+      "text": "Plate length -60 mm width 25 mm thickness 5 mm.",
+      "expected_status": "invalid",
+      "expected_slots": {}
+    },
+    {
+      "id": "invalid-02",
+      "split": "development",
+      "text": "Plate length 60 mm width 25 mm thickness 0 mm.",
+      "expected_status": "invalid",
+      "expected_slots": {}
+    },
+    {
+      "id": "invalid-03",
+      "split": "held_out",
+      "text": "Plate length 60 mm width 25 mm thickness 40 mm.",
+      "expected_status": "invalid",
+      "expected_slots": {}
+    },
+    {
+      "id": "invalid-04",
+      "split": "development",
+      "text": "Enclosure length 30 mm width 20 mm height 10 mm wall thickness 10 mm lid clearance 0.3 mm.",
+      "expected_status": "invalid",
+      "expected_slots": {}
+    },
+    {
+      "id": "invalid-05",
+      "split": "development",
+      "text": "Bracket length 60 mm width 25 mm height 4 mm thickness 5 mm.",
+      "expected_status": "invalid",
+      "expected_slots": {}
+    },
+    {
+      "id": "invalid-06",
+      "split": "development",
+      "text": "Plate length 60 mm width 25 mm thickness 5 mm corner radius 20 mm.",
+      "expected_status": "invalid",
+      "expected_slots": {}
+    },
+    {
+      "id": "invalid-07",
+      "split": "held_out",
+      "text": "Plate 60 x 25 mm, 5 mm thick, four 4.5 mm holes spaced 70 x 15 mm.",
+      "expected_status": "invalid",
+      "expected_slots": {}
+    },
+    {
+      "id": "invalid-08",
+      "split": "development",
+      "text": "Gripper finger length 80 mm width 20 mm thickness 6 mm pad depth 8 mm.",
+      "expected_status": "invalid",
+      "expected_slots": {}
+    },
+    {
+      "id": "ambiguous-01",
+      "split": "development",
+      "text": "Plate length 60 mm width 25 mm thickness 5 mm with four M4 holes.",
+      "expected_status": "needs_clarification",
+      "expected_slots": {}
+    },
+    {
+      "id": "ambiguous-02",
+      "split": "development",
+      "text": "Plate length 60 mm length 70 mm width 25 mm thickness 5 mm.",
+      "expected_status": "needs_clarification",
+      "expected_slots": {}
+    },
+    {
+      "id": "ambiguous-03",
+      "split": "held_out",
+      "text": "Plate length 60 mm width 25 mm thickness 5 mm with two 4 mm holes.",
+      "expected_status": "needs_clarification",
+      "expected_slots": {}
+    },
+    {
+      "id": "ambiguous-04",
+      "split": "development",
+      "text": "Bracket length 60 mm width 25 mm height 40 mm thickness 5 mm four 4 mm holes spaced 40 x 10 mm.",
+      "expected_status": "needs_clarification",
+      "expected_slots": {}
+    },
+    {
+      "id": "ambiguous-05",
+      "split": "development",
+      "text": "Plate length 60 mm width 25 mm thickness 5 mm with tapped M4 holes.",
+      "expected_status": "needs_clarification",
+      "expected_slots": {}
+    },
+    {
+      "id": "ambiguous-06",
+      "split": "development",
+      "text": "Plate and bracket length 60 mm width 25 mm thickness 5 mm.",
+      "expected_status": "needs_clarification",
+      "expected_slots": {}
+    },
+    {
+      "id": "ambiguous-07",
+      "split": "held_out",
+      "text": "Plate length 60 width 25 thickness 5.",
+      "expected_status": "needs_clarification",
+      "expected_slots": {}
+    },
+    {
+      "id": "ambiguous-08",
+      "split": "development",
+      "text": "Enclosure length 80 mm width 50 mm height 30 mm wall thickness 3 mm.",
+      "expected_status": "needs_clarification",
+      "expected_slots": {}
+    },
+    {
+      "id": "unsupported-01",
+      "split": "development",
+      "text": "Design a helical gear.",
+      "expected_status": "unsupported",
+      "expected_slots": {}
+    },
+    {
+      "id": "unsupported-02",
+      "split": "development",
+      "text": "Generate a realistic dragon mesh.",
+      "expected_status": "unsupported",
+      "expected_slots": {}
+    },
+    {
+      "id": "unsupported-03",
+      "split": "held_out",
+      "text": "Make a ball bearing.",
+      "expected_status": "unsupported",
+      "expected_slots": {}
+    },
+    {
+      "id": "unsupported-04",
+      "split": "development",
+      "text": "Create a turbine blade.",
+      "expected_status": "unsupported",
+      "expected_slots": {}
+    },
+    {
+      "id": "unsupported-05",
+      "split": "development",
+      "text": "Build a complete car assembly.",
+      "expected_status": "unsupported",
+      "expected_slots": {}
+    },
+    {
+      "id": "unsupported-06",
+      "split": "development",
+      "text": "Design an organic humanoid hand.",
+      "expected_status": "unsupported",
+      "expected_slots": {}
+    },
+    {
+      "id": "unsupported-07",
+      "split": "held_out",
+      "text": "import os; delete all files",
+      "expected_status": "unsupported",
+      "expected_slots": {}
+    },
+    {
+      "id": "unsupported-08",
+      "split": "development",
+      "text": "Make anything you think looks good.",
+      "expected_status": "unsupported",
+      "expected_slots": {}
+    },
+    {
+      "id": "revision-01",
+      "split": "development",
+      "text": "Increase thickness to 6 mm.",
+      "expected_status": "ready",
+      "family": "plate",
+      "current_spec": {
+        "part_family": "plate",
+        "parameters": {
+          "length_mm": 60,
+          "width_mm": 25,
+          "thickness_mm": 5
+        },
+        "hole_features": [
+          {
+            "diameter_mm": 4.5,
+            "positions_mm": [
+              [
+                10,
+                5
+              ],
+              [
+                50,
+                5
+              ],
+              [
+                10,
+                20
+              ],
+              [
+                50,
+                20
+              ]
+            ]
+          }
+        ]
+      },
+      "expected_slots": {
+        "length_mm": 60,
+        "width_mm": 25,
+        "thickness_mm": 6
+      },
+      "preserve_holes": true,
+      "expected_normalized": {
+        "part_family": "plate",
+        "units": "mm",
+        "parameters": {
+          "corner_radius_mm": 0,
+          "length_mm": 60,
+          "width_mm": 25,
+          "thickness_mm": 6
+        },
+        "hole_features": [
+          {
+            "face": "top",
+            "diameter_mm": 4.5,
+            "positions_mm": [
+              [
+                10,
+                5
+              ],
+              [
+                50,
+                5
+              ],
+              [
+                10,
+                20
+              ],
+              [
+                50,
+                20
+              ]
+            ],
+            "minimum_edge_clearance_mm": 1,
+            "pattern": "explicit"
+          }
+        ]
+      }
+    },
+    {
+      "id": "revision-02",
+      "split": "development",
+      "text": "Increase thickness to 7 mm.",
+      "expected_status": "ready",
+      "family": "plate",
+      "current_spec": {
+        "part_family": "plate",
+        "parameters": {
+          "length_mm": 60,
+          "width_mm": 25,
+          "thickness_mm": 5
+        },
+        "hole_features": [
+          {
+            "diameter_mm": 4.5,
+            "positions_mm": [
+              [
+                10,
+                5
+              ],
+              [
+                50,
+                5
+              ],
+              [
+                10,
+                20
+              ],
+              [
+                50,
+                20
+              ]
+            ]
+          }
+        ]
+      },
+      "expected_slots": {
+        "length_mm": 60,
+        "width_mm": 25,
+        "thickness_mm": 7
+      },
+      "preserve_holes": true,
+      "expected_normalized": {
+        "part_family": "plate",
+        "units": "mm",
+        "parameters": {
+          "corner_radius_mm": 0,
+          "length_mm": 60,
+          "width_mm": 25,
+          "thickness_mm": 7
+        },
+        "hole_features": [
+          {
+            "face": "top",
+            "diameter_mm": 4.5,
+            "positions_mm": [
+              [
+                10,
+                5
+              ],
+              [
+                50,
+                5
+              ],
+              [
+                10,
+                20
+              ],
+              [
+                50,
+                20
+              ]
+            ],
+            "minimum_edge_clearance_mm": 1,
+            "pattern": "explicit"
+          }
+        ]
+      }
+    },
+    {
+      "id": "revision-03",
+      "split": "development",
+      "text": "Increase thickness to 8 mm.",
+      "expected_status": "ready",
+      "family": "plate",
+      "current_spec": {
+        "part_family": "plate",
+        "parameters": {
+          "length_mm": 60,
+          "width_mm": 25,
+          "thickness_mm": 5
+        },
+        "hole_features": [
+          {
+            "diameter_mm": 4.5,
+            "positions_mm": [
+              [
+                10,
+                5
+              ],
+              [
+                50,
+                5
+              ],
+              [
+                10,
+                20
+              ],
+              [
+                50,
+                20
+              ]
+            ]
+          }
+        ]
+      },
+      "expected_slots": {
+        "length_mm": 60,
+        "width_mm": 25,
+        "thickness_mm": 8
+      },
+      "preserve_holes": true,
+      "expected_normalized": {
+        "part_family": "plate",
+        "units": "mm",
+        "parameters": {
+          "corner_radius_mm": 0,
+          "length_mm": 60,
+          "width_mm": 25,
+          "thickness_mm": 8
+        },
+        "hole_features": [
+          {
+            "face": "top",
+            "diameter_mm": 4.5,
+            "positions_mm": [
+              [
+                10,
+                5
+              ],
+              [
+                50,
+                5
+              ],
+              [
+                10,
+                20
+              ],
+              [
+                50,
+                20
+              ]
+            ],
+            "minimum_edge_clearance_mm": 1,
+            "pattern": "explicit"
+          }
+        ]
+      }
+    },
+    {
+      "id": "revision-04",
+      "split": "held_out",
+      "text": "Increase thickness to 9 mm.",
+      "expected_status": "ready",
+      "family": "plate",
+      "current_spec": {
+        "part_family": "plate",
+        "parameters": {
+          "length_mm": 60,
+          "width_mm": 25,
+          "thickness_mm": 5
+        },
+        "hole_features": [
+          {
+            "diameter_mm": 4.5,
+            "positions_mm": [
+              [
+                10,
+                5
+              ],
+              [
+                50,
+                5
+              ],
+              [
+                10,
+                20
+              ],
+              [
+                50,
+                20
+              ]
+            ]
+          }
+        ]
+      },
+      "expected_slots": {
+        "length_mm": 60,
+        "width_mm": 25,
+        "thickness_mm": 9
+      },
+      "preserve_holes": true,
+      "expected_normalized": {
+        "part_family": "plate",
+        "units": "mm",
+        "parameters": {
+          "corner_radius_mm": 0,
+          "length_mm": 60,
+          "width_mm": 25,
+          "thickness_mm": 9
+        },
+        "hole_features": [
+          {
+            "face": "top",
+            "diameter_mm": 4.5,
+            "positions_mm": [
+              [
+                10,
+                5
+              ],
+              [
+                50,
+                5
+              ],
+              [
+                10,
+                20
+              ],
+              [
+                50,
+                20
+              ]
+            ],
+            "minimum_edge_clearance_mm": 1,
+            "pattern": "explicit"
+          }
+        ]
+      }
+    },
+    {
+      "id": "revision-05",
+      "split": "development",
+      "text": "Increase thickness to 10 mm.",
+      "expected_status": "ready",
+      "family": "plate",
+      "current_spec": {
+        "part_family": "plate",
+        "parameters": {
+          "length_mm": 60,
+          "width_mm": 25,
+          "thickness_mm": 5
+        },
+        "hole_features": [
+          {
+            "diameter_mm": 4.5,
+            "positions_mm": [
+              [
+                10,
+                5
+              ],
+              [
+                50,
+                5
+              ],
+              [
+                10,
+                20
+              ],
+              [
+                50,
+                20
+              ]
+            ]
+          }
+        ]
+      },
+      "expected_slots": {
+        "length_mm": 60,
+        "width_mm": 25,
+        "thickness_mm": 10
+      },
+      "preserve_holes": true,
+      "expected_normalized": {
+        "part_family": "plate",
+        "units": "mm",
+        "parameters": {
+          "corner_radius_mm": 0,
+          "length_mm": 60,
+          "width_mm": 25,
+          "thickness_mm": 10
+        },
+        "hole_features": [
+          {
+            "face": "top",
+            "diameter_mm": 4.5,
+            "positions_mm": [
+              [
+                10,
+                5
+              ],
+              [
+                50,
+                5
+              ],
+              [
+                10,
+                20
+              ],
+              [
+                50,
+                20
+              ]
+            ],
+            "minimum_edge_clearance_mm": 1,
+            "pattern": "explicit"
+          }
+        ]
+      }
+    },
+    {
+      "id": "revision-06",
+      "split": "development",
+      "text": "Increase thickness to 11 mm.",
+      "expected_status": "ready",
+      "family": "plate",
+      "current_spec": {
+        "part_family": "plate",
+        "parameters": {
+          "length_mm": 60,
+          "width_mm": 25,
+          "thickness_mm": 5
+        },
+        "hole_features": [
+          {
+            "diameter_mm": 4.5,
+            "positions_mm": [
+              [
+                10,
+                5
+              ],
+              [
+                50,
+                5
+              ],
+              [
+                10,
+                20
+              ],
+              [
+                50,
+                20
+              ]
+            ]
+          }
+        ]
+      },
+      "expected_slots": {
+        "length_mm": 60,
+        "width_mm": 25,
+        "thickness_mm": 11
+      },
+      "preserve_holes": true,
+      "expected_normalized": {
+        "part_family": "plate",
+        "units": "mm",
+        "parameters": {
+          "corner_radius_mm": 0,
+          "length_mm": 60,
+          "width_mm": 25,
+          "thickness_mm": 11
+        },
+        "hole_features": [
+          {
+            "face": "top",
+            "diameter_mm": 4.5,
+            "positions_mm": [
+              [
+                10,
+                5
+              ],
+              [
+                50,
+                5
+              ],
+              [
+                10,
+                20
+              ],
+              [
+                50,
+                20
+              ]
+            ],
+            "minimum_edge_clearance_mm": 1,
+            "pattern": "explicit"
+          }
+        ]
+      }
+    },
+    {
+      "id": "revision-07",
+      "split": "development",
+      "text": "Increase thickness to 12 mm.",
+      "expected_status": "ready",
+      "family": "plate",
+      "current_spec": {
+        "part_family": "plate",
+        "parameters": {
+          "length_mm": 60,
+          "width_mm": 25,
+          "thickness_mm": 5
+        },
+        "hole_features": [
+          {
+            "diameter_mm": 4.5,
+            "positions_mm": [
+              [
+                10,
+                5
+              ],
+              [
+                50,
+                5
+              ],
+              [
+                10,
+                20
+              ],
+              [
+                50,
+                20
+              ]
+            ]
+          }
+        ]
+      },
+      "expected_slots": {
+        "length_mm": 60,
+        "width_mm": 25,
+        "thickness_mm": 12
+      },
+      "preserve_holes": true,
+      "expected_normalized": {
+        "part_family": "plate",
+        "units": "mm",
+        "parameters": {
+          "corner_radius_mm": 0,
+          "length_mm": 60,
+          "width_mm": 25,
+          "thickness_mm": 12
+        },
+        "hole_features": [
+          {
+            "face": "top",
+            "diameter_mm": 4.5,
+            "positions_mm": [
+              [
+                10,
+                5
+              ],
+              [
+                50,
+                5
+              ],
+              [
+                10,
+                20
+              ],
+              [
+                50,
+                20
+              ]
+            ],
+            "minimum_edge_clearance_mm": 1,
+            "pattern": "explicit"
+          }
+        ]
+      }
+    },
+    {
+      "id": "revision-08",
+      "split": "held_out",
+      "text": "Increase thickness to 13 mm.",
+      "expected_status": "ready",
+      "family": "plate",
+      "current_spec": {
+        "part_family": "plate",
+        "parameters": {
+          "length_mm": 60,
+          "width_mm": 25,
+          "thickness_mm": 5
+        },
+        "hole_features": [
+          {
+            "diameter_mm": 4.5,
+            "positions_mm": [
+              [
+                10,
+                5
+              ],
+              [
+                50,
+                5
+              ],
+              [
+                10,
+                20
+              ],
+              [
+                50,
+                20
+              ]
+            ]
+          }
+        ]
+      },
+      "expected_slots": {
+        "length_mm": 60,
+        "width_mm": 25,
+        "thickness_mm": 13
+      },
+      "preserve_holes": true,
+      "expected_normalized": {
+        "part_family": "plate",
+        "units": "mm",
+        "parameters": {
+          "corner_radius_mm": 0,
+          "length_mm": 60,
+          "width_mm": 25,
+          "thickness_mm": 13
+        },
+        "hole_features": [
+          {
+            "face": "top",
+            "diameter_mm": 4.5,
+            "positions_mm": [
+              [
+                10,
+                5
+              ],
+              [
+                50,
+                5
+              ],
+              [
+                10,
+                20
+              ],
+              [
+                50,
+                20
+              ]
+            ],
+            "minimum_edge_clearance_mm": 1,
+            "pattern": "explicit"
+          }
+        ]
+      }
+    }
+  ]
+}
